@@ -19,10 +19,10 @@ app.use(express.static('assets'));
 app.get('/',(req,res)=>{
     console.log("got a request");
 Contact.find({})
-.then(contacts=>{
+.then(Contact=>{
     return res.render('home',{
         title:"Add Employee",
-        contact_list:contacts
+        contact_list:Contact
     });
 })
 .catch(err=>{
