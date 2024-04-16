@@ -1,5 +1,5 @@
 const mongoose=require('mongoose')
-const mongoURI= 'mongodb+srv://ddeepakmishra5:mongodb@url@cluster0.y8ffphr.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0'
+const mongoURI= 'mongodb+srv://ddeepakmishra5:pJ6wF2O6PgDyeYgX@cluster0.y8ffphr.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0'
 
 const options = {
     connectTimeoutMS: 30000, // Set the connect timeout to 30 seconds (30000 milliseconds)
