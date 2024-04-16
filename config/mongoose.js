@@ -1,5 +1,5 @@
 const mongoose=require('mongoose')
-const mongoURI= 'mongodb://127.0.0.1:27017/new_db'
+const mongoURI= 'mongodb+srv://<username>:<password>@<clusterName>.mongodb.net/?retryWrites=true&w=majority'
 
 const options = {
     connectTimeoutMS: 30000, // Set the connect timeout to 30 seconds (30000 milliseconds)
